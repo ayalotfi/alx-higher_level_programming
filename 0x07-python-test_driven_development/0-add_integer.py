@@ -1,15 +1,10 @@
 #!/usr/bin/python3
-"""Module for add int method """
-
 def add_integer(a, b=98):
-    """ Function to add two int"""
+    """function that add 2 numbers"""
 
-    if not isinstance(a, (int, float)):
+    if not a or (type(a) != int and type(a) != float):
         raise TypeError("a must be an integer")
-    if not isinstance(b, (int, float)):
+    if type(b) != int and type(b) != float:
         raise TypeError("b must be an integer")
 
-    a = int(a)
-    b = int(b)
-
-    return (a + b)
+    return(int(a) + int(b))
