@@ -1,5 +1,5 @@
 >>> text_indentation = __import__("5-text_indentation").text_indentation
->>> text_indentation("""machakili. dans la? tete ifratilul, tifratiluu""")
+>>> text_indentation("""aya aya aya aya, ich bj sher schon""")
 machakili.
 <BLANKLINE>
 dans la?
