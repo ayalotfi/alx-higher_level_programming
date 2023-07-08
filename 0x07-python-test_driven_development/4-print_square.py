@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-"""making square"""
+"""Defines a square print func """
 
 
 def print_square(size):
-    """error and making sq"""
+    """Print a square with the char """
+
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
-        raise TypeError("size must be >= 0")
-    for _ in range(size):
-        print("#"*size)
+        raise ValueError("size must be >= 0")
+
+    for i in range(size):
+        print("#" * size)
