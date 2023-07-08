@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines a matrix multiplication function"""
+"""Defines matrix multiplication func"""
 
 
 def matrix_mul(m_a, m_b):
-    """Multiplies two matrices"""
+    """ multiplies_two_matrices"""
 
     if not isinstance(m_a, list):
         raise TypeError("m_a must be a list")
